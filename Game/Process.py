@@ -32,7 +32,6 @@ class Player:
     def getPos(self):
         return [self.x,self.y]
 
-
 class bomb:
     def __init__(self, num, bobRange, interval):
         self.num = num
@@ -49,7 +48,6 @@ class bomb:
             self.bombs.append([x,y,z])
 
     def getBombs(self):
-        # print(self.bombs)
         return self.bombs
 
     def getInterval(self):

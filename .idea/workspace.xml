@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b15db3d1-6206-41e0-8335-ae6b83df5e87" name="Default Changelist" comment="" />
+    <list default="true" id="b15db3d1-6206-41e0-8335-ae6b83df5e87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/Process.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Process.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Game/Process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="162">
+              <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
               <folding>
                 <element signature="e#299#1087#0" />
                 <element signature="e#372#650#0" />
@@ -24,21 +28,30 @@
                 <element signature="e#1106#1642#0" />
                 <element signature="e#1159#1260#0" />
                 <element signature="e#1292#1501#0" />
+                <element signature="e#1692#5362#0" />
                 <element signature="e#1774#1974#0" />
                 <element signature="e#2009#2063#0" />
-                <element signature="e#2099#2479#0" />
+                <element signature="e#2104#2484#0" />
                 <element signature="e#2516#2618#0" />
                 <element signature="e#2654#3154#0" />
                 <element signature="e#3210#3617#0" />
                 <element signature="e#3263#3400#0" />
                 <element signature="e#3643#3707#0" />
                 <element signature="e#3741#3781#0" />
-                <element signature="e#3816#4109#0" />
-                <element signature="e#4145#4690#0" />
                 <element signature="e#4354#4528#0" />
                 <element signature="e#4876#5097#0" />
                 <element signature="e#5155#5362#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/REDEME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -61,12 +74,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Game/__init__.py" />
         <option value="$PROJECT_DIR$/GameWindow.py" />
         <option value="$PROJECT_DIR$/Game/part1.py" />
+        <option value="$PROJECT_DIR$/REDEME.md" />
         <option value="$PROJECT_DIR$/Game/Process.py" />
       </list>
     </option>
@@ -76,6 +93,7 @@
     <option name="width" value="1060" />
     <option name="height" value="910" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -96,6 +114,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Game/image" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
@@ -225,20 +244,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2324967" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2324967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21782178" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21671388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33002833" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -266,6 +286,16 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Game/Process.py</url>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1640941622/PyQt5/QtWidgets/QWidget.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -277,10 +307,25 @@
     <entry file="file://$PROJECT_DIR$/Game/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/GameWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REDEME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Game/Process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="162">
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
           <folding>
             <element signature="e#299#1087#0" />
             <element signature="e#372#650#0" />
@@ -290,28 +335,20 @@
             <element signature="e#1106#1642#0" />
             <element signature="e#1159#1260#0" />
             <element signature="e#1292#1501#0" />
+            <element signature="e#1692#5362#0" />
             <element signature="e#1774#1974#0" />
             <element signature="e#2009#2063#0" />
-            <element signature="e#2099#2479#0" />
+            <element signature="e#2104#2484#0" />
             <element signature="e#2516#2618#0" />
             <element signature="e#2654#3154#0" />
             <element signature="e#3210#3617#0" />
             <element signature="e#3263#3400#0" />
             <element signature="e#3643#3707#0" />
             <element signature="e#3741#3781#0" />
-            <element signature="e#3816#4109#0" />
-            <element signature="e#4145#4690#0" />
             <element signature="e#4354#4528#0" />
             <element signature="e#4876#5097#0" />
             <element signature="e#5155#5362#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
         </state>
       </provider>
     </entry>
