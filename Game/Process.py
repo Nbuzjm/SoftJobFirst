@@ -107,7 +107,7 @@ class GameBoard(QMainWindow, Ui_MainWindow):
         for i in range(10):
             for j in range(10):
                 t = QtWidgets.QLabel(self.centralwidget)
-                t.setPixmap(QtGui.QPixmap(r"C:\Users\zhenxs\PycharmProjects\SoftProjectDemo\Game\image\bot.png"))
+                t.setPixmap(QtGui.QPixmap("./Game/image/bot.png"))
                 t.setGeometry(QtCore.QRect(70 + 40 * i, 50 + 40 * j, 40, 40))
                 self.mat[i][j] = t
 
@@ -116,7 +116,7 @@ class GameBoard(QMainWindow, Ui_MainWindow):
         y = random.randint(0, 9)
         self.player = Player(x, y)
         self.gg = QtWidgets.QLabel(self.centralwidget)
-        self.gg.setPixmap(QtGui.QPixmap(r"C:\Users\zhenxs\PycharmProjects\SoftProjectDemo\Game\image\person.png"))
+        self.gg.setPixmap(QtGui.QPixmap("./Game/image/person.png"))
         self.personUpdate()
 
     def buildTimer(self):
@@ -219,11 +219,11 @@ class GameBoard(QMainWindow, Ui_MainWindow):
             for j in range(10):
                 t = self.mat[i][j]
                 if p[i][j] == 0:
-                    t.setPixmap(QtGui.QPixmap(r"C:\Users\zhenxs\PycharmProjects\SoftProjectDemo\Game\image\bot.png"))
+                    t.setPixmap(QtGui.QPixmap("./Game/image/bot.png"))
                 elif p[i][j] == 1:
-                    t.setPixmap(QtGui.QPixmap(r"C:\Users\zhenxs\PycharmProjects\SoftProjectDemo\Game\image\bomb.png"))
+                    t.setPixmap(QtGui.QPixmap("./Game/image/bomb.png"))
                 elif p[i][j] == 2:
-                    t.setPixmap(QtGui.QPixmap(r"C:\Users\zhenxs\PycharmProjects\SoftProjectDemo\Game\image\after.png"))
+                    t.setPixmap(QtGui.QPixmap("./Game/image/after.png"))
 
 
 if __name__ == '__main__':
