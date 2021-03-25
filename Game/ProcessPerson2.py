@@ -50,7 +50,8 @@ class Bomb:
         self.bombRange+= 1
 
     def updateBobRange(self):
-        self.interval -= 50
+        self.interval -=50
+
 
     def upDate(self):
         self.bombs = []
@@ -130,6 +131,11 @@ class GameController(QMainWindow, Ui_MainWindow):
         y = random.randint(0, 9)
         self.player = Player(x, y)
 
+        x = random.randint(0, 9)
+        y = random.randint(0, 9)
+        self.playerPlus = Player(x, y)
+
+
     def buildGraph(self):
         self.board = Board()
         for i in range(10):
@@ -141,6 +147,10 @@ class GameController(QMainWindow, Ui_MainWindow):
 
         self.gg = QtWidgets.QLabel(self.centralwidget)
         self.gg.setPixmap(QtGui.QPixmap("./Game/image/person.png"))
+
+        self.ggg = QtWidgets.QLabel(self.centralwidget)
+        self.ggg.setPixmap(QtGui.QPixmap("./Game/image/person1.png"))
+
         self.personUpdate()
         self.numShowUpdate()
         self.rangeShowUpdate()

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15db3d1-6206-41e0-8335-ae6b83df5e87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Game/ProcessPerson2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game/image/person1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/GameWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/Process.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameWindow.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,22 +20,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Game/Process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="108" column="56" lean-forward="true" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
+            <state relative-caret-position="260">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="127" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#851#882#0" />
-                <element signature="e#3191#3692#0" />
+                <element signature="e#220#815#0" />
+                <element signature="e#834#1625#0" />
+                <element signature="e#1645#2372#0" />
+                <element signature="e#7415#7507#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameWindow.py">
+        <entry file="file://$PROJECT_DIR$/Game/GameWindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="1300">
+              <caret line="51" column="23" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="23" />
+              <folding>
+                <element signature="e#293#335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +54,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>showTime</find>
+      <find>mapUpdate</find>
+      <find>font</find>
+      <find>playerClk</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -52,26 +69,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Game/__init__.py" />
-        <option value="$PROJECT_DIR$/GameWindow.py" />
         <option value="$PROJECT_DIR$/Game/part1.py" />
         <option value="$PROJECT_DIR$/REDEME.md" />
         <option value="$PROJECT_DIR$/REAME.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/GameWindow.py" />
+        <option value="$PROJECT_DIR$/Game/GameWindow.py" />
+        <option value="$PROJECT_DIR$/Game/ProcessPerson2.py" />
         <option value="$PROJECT_DIR$/Game/Process.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="535" />
+    <option name="y" value="535" />
     <option name="width" value="1060" />
     <option name="height" value="910" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,24 +107,17 @@
               <item name="SoftProjectDemo" type="462c0819:PsiDirectoryNode" />
               <item name="Game" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SoftProjectDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftProjectDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Game" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Game" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -236,19 +252,19 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1367239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19022457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21671388" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19971672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28328612" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28328612" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -297,28 +313,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game/GameWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/GameWindow.py" />
+    <entry file="file://$PROJECT_DIR$/Game/image/person1.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameWindow.py">
+    <entry file="file://$PROJECT_DIR$/Game/image/person.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/ProcessPerson2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="408">
+          <caret line="153" column="19" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
+          <folding>
+            <element signature="e#220#815#0" />
+            <element signature="e#834#1625#0" />
+            <element signature="e#1771#1857#0" />
+            <element signature="e#1896#1944#0" />
+            <element signature="e#1977#2264#0" />
+            <element signature="e#2304#2325#0" />
+            <element signature="e#2357#2372#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Game/Process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="108" column="56" lean-forward="true" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
+        <state relative-caret-position="260">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="127" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#851#882#0" />
-            <element signature="e#3191#3692#0" />
+            <element signature="e#220#815#0" />
+            <element signature="e#834#1625#0" />
+            <element signature="e#1645#2372#0" />
+            <element signature="e#7415#7507#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/GameWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="23" />
+          <folding>
+            <element signature="e#293#335#0" expanded="true" />
           </folding>
         </state>
       </provider>

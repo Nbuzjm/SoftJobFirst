@@ -28,16 +28,61 @@ class Ui_MainWindow(object):
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
 
+
+        self.Label = QtWidgets.QLabel(self.centralwidget)
+        self.Label . setGeometry(QtCore.QRect(20, 470 , 60, 30))
+        self.Label . setText("得分：")
+        self.Label . setStyleSheet(" text-align: center ; font:12pt,'Arial';")
+        self.Label.setAlignment(Qt.AlignCenter)
+
         self.scoreLabel = QtWidgets.QLabel(self.centralwidget)
-        # self.timer . setPixmap(QtGui.QPixmap(r"C:\Users\zhenxs\PycharmProjects\SoftProjectDemo\Game\image\bot.png"))
-        self.scoreLabel . setGeometry(QtCore.QRect(70 + 130, 470 , 120, 40))
+        self.scoreLabel . setGeometry(QtCore.QRect(70, 470 , 60, 30))
         self.scoreLabel . setText("0")
-        self.scoreLabel . setStyleSheet("background-color: rgb(255,255,255); text-align: center ; font:16pt,'Arial';")
+        self.scoreLabel . setStyleSheet("background-color: rgb(255,255,255); text-align: center ; font:12pt,'Arial';")
         self.scoreLabel.setAlignment(Qt.AlignCenter)
-        # font = QtGui.QFont()
-        # font.setsi
-        # self.timer.setFont(font)
-        self.scoreLabel.setObjectName("Clock")
+
+
+        self.Label2 = QtWidgets.QLabel(self.centralwidget)
+        self.Label2 . setGeometry(QtCore.QRect(142, 470 , 60, 30))
+        self.Label2 . setText("速度：")
+        self.Label2 . setStyleSheet(" text-align: center ; font:12pt,'Arial';")
+        self.Label2 . setAlignment(Qt.AlignCenter)
+        self.Label2 . setObjectName("Clock")
+
+        self.speedLabel = QtWidgets.QLabel(self.centralwidget)
+        self.speedLabel . setGeometry(QtCore.QRect(202, 470 , 60, 30))
+        self.speedLabel . setText("0")
+        self.speedLabel . setStyleSheet("background-color: rgb(255,255,255); text-align: center ; font:12pt,'Arial';")
+        self.speedLabel.setAlignment(Qt.AlignCenter)
+
+
+        self.Label2 = QtWidgets.QLabel(self.centralwidget)
+        self.Label2 . setGeometry(QtCore.QRect(274, 470 , 60, 30))
+        self.Label2 . setText("数量：")
+        self.Label2 . setStyleSheet(" text-align: center ; font:12pt,'Arial';")
+        self.Label2 . setAlignment(Qt.AlignCenter)
+        self.Label2 . setObjectName("Clock")
+
+        self.numLabel = QtWidgets.QLabel(self.centralwidget)
+        self.numLabel . setGeometry(QtCore.QRect(335, 470 , 60, 30))
+        self.numLabel . setText("0")
+        self.numLabel . setStyleSheet("background-color: rgb(255,255,255); text-align: center ; font:12pt,'Arial';")
+        self.numLabel.setAlignment(Qt.AlignCenter)
+
+
+        self.Label3 = QtWidgets.QLabel(self.centralwidget)
+        self.Label3 . setGeometry(QtCore.QRect(410, 470 , 60, 30))
+        self.Label3 . setText("范围：")
+        self.Label3 . setStyleSheet(" text-align: center ; font:12pt,'Arial';")
+        self.Label3 . setAlignment(Qt.AlignCenter)
+        self.Label3 . setObjectName("Clock")
+
+        self.rangeLabel = QtWidgets.QLabel(self.centralwidget)
+        self.rangeLabel . setGeometry(QtCore.QRect(470, 470 , 60, 30))
+        self.rangeLabel . setText("0")
+        self.rangeLabel . setStyleSheet("background-color: rgb(255,255,255); text-align: center ; font:12pt,'Arial';")
+        self.rangeLabel.setAlignment(Qt.AlignCenter)
+
 
 
         self.menubar.setObjectName("menubar")
